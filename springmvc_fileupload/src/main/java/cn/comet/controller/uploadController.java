@@ -20,7 +20,7 @@ public class uploadController {
     @RequestMapping("uploadFile")
     public String uploadFile(String description, MultipartFile upload, HttpServletRequest request){
 		System.out.println("文件描述信息："+description);
-		System.out.println("文件描述信息："+description);
+		System.out.println("文件描述信息555："+description);
         System.out.println("文件描述信息："+description);
         String realPath = request.getSession().getServletContext().getRealPath("file" + UploadUtils.getDir());
         File file=new File(realPath);
